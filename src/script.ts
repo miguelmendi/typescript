@@ -11,7 +11,7 @@ button.addEventListener("click", function() {
   res.innerHTML = calcular(+number1.value, +number2.value).toString()
 })*/
 
-let nome: string = "Miguel"
+/*let nome: string = "Miguel"
 let idade = 90
 
 let programador: boolean = true
@@ -24,4 +24,11 @@ let numeros: Array<number> = [15, 23, 95, 50]
 
 let outrosNomes: any= ["luiza", "maria", "vitoria"]
 
-outrosNomes.push(556)
+outrosNomes.push(556)*/
+
+function firstLetterUpperCase(name: string,) {
+  let firstLetter = name.charAt(0).toUpperCase()
+  return firstLetter+name.substring(1)
+}
+
+firstLetterUpperCase("miguel")
