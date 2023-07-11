@@ -15,3 +15,9 @@ let nome: string = "Miguel"
 let idade = 90
 
 let programador: boolean = true
+
+let nomes: string[] = ["miguel", "pedro", "luiz", "gabriel"]
+
+let idades: number[] = [90, 15, 20, 25]
+
+let numeros: Array<number> = [15, 23, 95, 50]
