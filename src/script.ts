@@ -50,13 +50,16 @@ names.forEach(function(nome) {
   
 });*/
 
-function resumo(usuario: {nome: string, idade:number}) {
-  return `Ola ${usuario.nome}, tudo bem? Você tem ${usuario.idade} anos`
+function resumo(usuario: {nome: string, idade?:number}) {
+  if(usuario.idade !== undefined){
+    return `Ola ${usuario.nome}, tudo bem? Você tem ${usuario.idade} anos`
+  }else {
+    return `Olá ${usuario.nome}, tudo bem?`
+  }
 }
 
 let u = {
   nome:"Miguel",
-  idade: 18
 }
 
 resumo(u)
