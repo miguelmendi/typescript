@@ -39,7 +39,7 @@ function somar(n1: number, n2:number): number {
 
 let alguma = somar(92, 15)*/
 
-let names = ["miguel", "pedro", "gabriel",90]
+/*let names = ["miguel", "pedro", "gabriel",90]
 
 names.forEach(function(nome) {
   if(typeof nome === "string") {
@@ -48,6 +48,17 @@ names.forEach(function(nome) {
     console.log(nome)
   }
   
-});
+});*/
+
+function resumo(usuario: {nome: string, idade:number}) {
+  return `Ola ${usuario.nome}, tudo bem? Você tem ${usuario.idade} anos`
+}
+
+let u = {
+  nome:"Miguel",
+  idade: 18
+}
+
+resumo(u)
 
 
