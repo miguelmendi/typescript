@@ -75,7 +75,7 @@ resumo(u)*/
 mostrarIdade(90)
 mostrarIdade("90")*/
 
-type Idade = string | number
+/*type Idade = string | number
 
 let idade: Idade = 90
 function mostrarIdade(i: Idade): Idade{
@@ -99,5 +99,9 @@ function resumo(usuario: User) {
 resumo({
   nome: "Miguel",
   idade: 90
-})
+})*/
+
+let idadeField = document.getElementById("idade") as HTMLInputElement
+
+console.log(idadeField.value)
 
