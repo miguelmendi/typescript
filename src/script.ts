@@ -50,7 +50,7 @@ names.forEach(function(nome) {
   
 });*/
 
-function resumo(usuario: {nome: string, idade?:number}) {
+/*function resumo(usuario: {nome: string, idade?:number}) {
   if(usuario.idade !== undefined){
     return `Ola ${usuario.nome}, tudo bem? Você tem ${usuario.idade} anos`
   }else {
@@ -62,6 +62,17 @@ let u = {
   nome:"Miguel",
 }
 
-resumo(u)
+resumo(u)*/
+
+function mostrarIdade(idade: string | number) {
+  if(typeof idade === "string"){
+    console.log(idade.toUpperCase())
+  } else {
+    console.log(idade)
+  }
+}
+
+mostrarIdade(90)
+mostrarIdade("90")
 
 
