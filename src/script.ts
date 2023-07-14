@@ -101,7 +101,37 @@ resumo({
   idade: 90
 })*/
 
-let idadeField = document.getElementById("idade") as HTMLInputElement
+//let idadeField = document.getElementById("idade") as HTMLInputElement
 
-console.log(idadeField.value)
+//console.log(idadeField.value)
+
+function mostrarTexto(texto:string, alinhamento: "left" | "right" | "center") {
+  return `<div style="text-aling: ${alinhamento}">${texto}</div>`
+}
+
+mostrarTexto("Miguel", "left")
+mostrarTexto("Miguel", "right")
+
+type VerdadeiroOuFalso = true | false
+
+function temNome(nome:string): true | false{
+  if (nome !== "") {
+    return true
+  } else {
+    return false
+  }
+}
+
+type Opcoes = {
+  width: number,
+  height: number
+}
+
+function configurar(props: Opcoes | "auto") {
+
+}
+
+configurar({width:100, height:200})
+configurar("auto")
+
 
