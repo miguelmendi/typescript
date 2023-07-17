@@ -144,7 +144,7 @@ let url = "https://google.com.br"
 let method: Methods = "GET"
 fazerRequisicao(url, method)*/
 
-type MathFunction = (n1: number, n2: number) => number
+/*type MathFunction = (n1: number, n2: number) => number
 
 const somar:MathFunction = (n1, n2) => {
   return n1 + n2
@@ -160,6 +160,27 @@ const multiplicar: MathFunction = (n1, n2) => {
 
 const dividir: MathFunction = (n1, n2) => {
   return n1 / n2
+}*/
+
+function removerElemento(el: any): void {
+  if(el.classList) {
+    return
+  }
+
+  el.remove()
+}
+
+removerElemento(document.getElementById("teste"))
+
+
+type QualquerFuncao = () => void
+
+const algo: QualquerFuncao = () => {
+  return "bla bla"
+}
+
+const bla = (): void => {
+  
 }
 
 
