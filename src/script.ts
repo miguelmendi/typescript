@@ -134,7 +134,7 @@ function configurar(props: Opcoes | "auto") {
 configurar({width:100, height:200})
 configurar("auto")*/
 
-function fazerRequisicao(url: string, method: "GET" | "POSR") {
+/*function fazerRequisicao(url: string, method: "GET" | "POSR") {
 
 }
 
@@ -142,6 +142,24 @@ type Methods = "GET" | "POST"
 
 let url = "https://google.com.br"
 let method: Methods = "GET"
-fazerRequisicao(url, method)
+fazerRequisicao(url, method)*/
+
+type MathFunction = (n1: number, n2: number) => number
+
+const somar:MathFunction = (n1, n2) => {
+  return n1 + n2
+}
+
+const subtrair: MathFunction = (n1, n2) => {
+  return n1 - n2
+}
+
+const multiplicar: MathFunction = (n1, n2) => {
+  return n1 * n2
+}
+
+const dividir: MathFunction = (n1, n2) => {
+  return n1 / n2
+}
 
 
