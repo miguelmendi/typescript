@@ -105,7 +105,7 @@ resumo({
 
 //console.log(idadeField.value)
 
-function mostrarTexto(texto:string, alinhamento: "left" | "right" | "center") {
+/*function mostrarTexto(texto:string, alinhamento: "left" | "right" | "center") {
   return `<div style="text-aling: ${alinhamento}">${texto}</div>`
 }
 
@@ -132,6 +132,16 @@ function configurar(props: Opcoes | "auto") {
 }
 
 configurar({width:100, height:200})
-configurar("auto")
+configurar("auto")*/
+
+function fazerRequisicao(url: string, method: "GET" | "POSR") {
+
+}
+
+type Methods = "GET" | "POST"
+
+let url = "https://google.com.br"
+let method: Methods = "GET"
+fazerRequisicao(url, method)
 
 
