@@ -162,7 +162,7 @@ const dividir: MathFunction = (n1, n2) => {
   return n1 / n2
 }*/
 
-function removerElemento(el: any): void {
+/*function removerElemento(el: any): void {
   if(el.classList) {
     return
   }
@@ -180,7 +180,19 @@ const algo: QualquerFuncao = () => {
 }
 
 const bla = (): void => {
-  
+
+}*/
+
+const nome: string = "Miguel"
+
+function blabla(n1:number):string {
+  return "O parâmetro era:" + n1
 }
+
+blabla(15)
+
+
+
+
 
 
