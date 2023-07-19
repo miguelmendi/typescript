@@ -1,3 +1,4 @@
+"use strict";
 /*let number1 = document.getElementById("number1") as HTMLInputElement
 let number2 = document.getElementById("number2") as HTMLInputElement
 let button = document.getElementById("calculator") as HTMLButtonElement
@@ -170,7 +171,7 @@ const algo: QualquerFuncao = () => {
 const bla = (): void => {
 
 }*/
-var nome = "Miguel";
+const nome = "Miguel";
 function blabla(n1) {
     return "O parâmetro era:" + n1;
 }
