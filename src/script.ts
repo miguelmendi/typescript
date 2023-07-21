@@ -183,13 +183,18 @@ const bla = (): void => {
 
 }*/
 
-const nome: string = "Miguel"
+/*const nome: string = "Miguel"
 
 function blabla(n1:number):string {
   return "O parâmetro era:" + n1
 }
 
-blabla(15)
+blabla(15)*/
+
+const botao = document.querySelector("button") as HTMLButtonElement
+botao.addEventListener("click", ()=> {
+  console.log("clicou")
+})
 
 
 
