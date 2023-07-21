@@ -171,8 +171,14 @@ const algo: QualquerFuncao = () => {
 const bla = (): void => {
 
 }*/
-const nome = "Miguel";
-function blabla(n1) {
-    return "O parâmetro era:" + n1;
+/*const nome: string = "Miguel"
+
+function blabla(n1:number):string {
+  return "O parâmetro era:" + n1
 }
-blabla(15);
+
+blabla(15)*/
+const botao = document.querySelector("button");
+botao.addEventListener("click", () => {
+    console.log("clicou");
+});
